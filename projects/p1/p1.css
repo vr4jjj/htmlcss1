@@ -1,0 +1,27 @@
+*{
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 30px;
+    border: 15px;
+}
+.card{
+    display: flex;
+    background-color: beige;
+    height: 100px;
+    width: 400px;
+}
+.child{
+    display: flex;
+    background-color: beige;
+    height: 100px;
+    width: 400px;
+    align-items: center;
+}
+img{
+    margin:80px ;
+}
+        
