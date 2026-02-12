@@ -5,7 +5,7 @@
     display: flex;
     background-color: antiquewhite;
     padding: 30px;
-    margin: 30px;
+    margin: 20px;
     border: 15px;
 }
 .card{
@@ -24,4 +24,10 @@
 img{
     margin:80px ;
 }
-        
+    #roshan {
+     background-color: beige;
+    width: 245px;
+    height: 184px;
+    align-items: center;
+
+    }
