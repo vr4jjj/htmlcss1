@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+a{
+    color: aliceblue;
+    text-decoration: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.bun{
+ height: 60vh;
+ background:url(https://media.istockphoto.com/id/477384274/photo/beautiful-sea-landscape.jpg?s=612x612&w=0&k=20&c=ttXdlWuRKwyJme6Uv4dnbhF9I2M2b4Al8HWkFn76OYw=) center/cover;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.per{
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+}
+.vh{
+    height: 20vh;
+    background-color: azure;
+
+}
