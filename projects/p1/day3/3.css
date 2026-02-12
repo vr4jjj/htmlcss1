@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color:gainsboro;
 }
 header{
     display: flex;
@@ -15,22 +15,53 @@ a{
     margin-bottom: 10px;
 }
 .bun{
- height: 60vh;
- background:url(https://media.istockphoto.com/id/477384274/photo/beautiful-sea-landscape.jpg?s=612x612&w=0&k=20&c=ttXdlWuRKwyJme6Uv4dnbhF9I2M2b4Al8HWkFn76OYw=) center/cover;
+ height: 40vh;
+ background:url(https://www.scottsmorraphotography.com/images/960/Hawaiian-Paradise-Makena-Cove-Sunset1-2048.webp) center/cover;
 
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 }
-.per{
-    width: 50%;
-    height: 100px;
-    background-color: aqua;
-    text-align: center;
-}
-.vh{
-    height: 20vh;
-    background-color: azure;
+.why{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
 
+}
+.two {
+    display:flex;
+    height: 100vh;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom: 102px;
+}
+.why img {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.who{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.why:hover img{
+    gap: 5px;
+    transform: scale(1.1);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
